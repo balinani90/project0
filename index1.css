@@ -1,0 +1,61 @@
+/*.mlbanner {
+  font-size: 50px;
+  font-style: Arial, sans serif;
+  color: black;
+  text-align: center;
+  background-image: url("MLbanner.jpg");
+  margin: 40px;
+  padding: 50px;
+} */
+#MLtable {
+  width: 100%;
+  height: 100%;
+  border-collapse: collapse;
+}
+
+.mlbanner{
+ background-image: url("MLbanner.jpg");
+ background-size: cover;
+ background-repeat: no-repeat;
+}
+
+.badge{
+  font-size: 40px;
+  text-align: center;
+}
+
+#ml{
+  margin: 10px;
+  margin-left: 40px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#ml:hover {
+  opacity: 0.7;
+}
+
+.mlbutton{
+  font-family: Arial, sans-serif;
+  margin: 15px;
+  font-weight: bold;
+  cursor: pointer;
+  text-align: center;
+}
+
+
+p{
+  font-size: 40px;
+  text-align: center;
+}
+
+.skills {
+    border: 1px solid black;
+    padding: 5px;
+    text-align: center;
+}
+
+.skillsimage{
+  border: 1px solid black;
+  padding: 5px;
+}
