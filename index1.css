@@ -25,9 +25,6 @@
 }
 
 #ml{
-  margin: 10px;
-  margin-left: 40px;
-  border-radius: 5px;
   cursor: pointer;
 }
 
@@ -43,7 +40,6 @@
   text-align: center;
 }
 
-
 p{
   font-size: 40px;
   text-align: center;
@@ -58,4 +54,35 @@ p{
 .skillsimage{
   border: 1px solid black;
   padding: 5px;
+}
+
+* {box-sizing: border-box;}
+
+/*#container2 {
+  position: relative;
+  width: 50%;
+  max-width: 300px;
+}*/
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: #f1f1f1;
+  transition: .5s ease;
+  display: none;
+  color: white;
+  font-size: 10px;
+  padding: 5px;
+  text-align: center;
+}
+#container2:hover .overlay {
+ display: block !important;
 }
