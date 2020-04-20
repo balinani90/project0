@@ -24,12 +24,10 @@
   text-align: center;
 }
 
-#ml{
-  cursor: pointer;
-}
-
 #ml:hover {
+  cursor: pointer;
   opacity: 0.7;
+  display:block;
 }
 
 .mlbutton{
@@ -54,6 +52,13 @@ p{
 .skillsimage{
   border: 1px solid black;
   padding: 5px;
+}
+
+#mlimages img{
+  padding: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  background-color: skyblue;
 }
 
 * {box-sizing: border-box;}
