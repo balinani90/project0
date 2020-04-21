@@ -25,9 +25,9 @@
     </div>
     <div class"navb">
     <nav class="navbar navbar-dark bg-dark justify-content-between">
-      <a class="navbar-brand"><button onclick="window.open('index1.html')">Home</button></a>
-      <a class="navbar-brand"><button onclick="window.open('heroes.html')">Heroes</button></a>
-      <a class="navbar-brand"><button onclick="window.open('artworks.html')">Artworks</button></a>
+      <a class="navbar-brand"><button onclick="window.open('index1.html')" class="navbtn">Home</button></a>
+      <a class="navbar-brand"><button onclick="window.open('heroes.html')" class="navbtn">Heroes</button></a>
+      <a class="navbar-brand"><button onclick="window.open('artworks.html')"class="navbtn">Artworks</button></a>
       <form class="form-inline">
         <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
         <button class="btn btn-outline-warning my-2 my-sm-0" type="submit">Search</button>
@@ -142,6 +142,28 @@
     </tbody>
   </table>
 </div>
+<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+<script>
+//Get the button
+var mybutton = document.getElementById("myBtn");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+mybutton.style.display = "block";
+} else {
+mybutton.style.display = "none";
+}
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+document.body.scrollTop = 0;
+document.documentElement.scrollTop = 0;
+}
+</script>
     <footer>Copyright © 2020 GM B0OM. All rights reserved.| Terms of Use | Privacy Policy</br>0926-7770-093</footer>
     </body>
 </html>
