@@ -7,8 +7,47 @@ body{
 }
 
 div{
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
+
+/*.navheroes{
+  margin-bottom: 20px;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+li {
+  display: inline;
+}*/
+.dropdown {
+  position: relative;
+  display: inline-block;
+  margin-top: 20px;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: grey;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .navbtn {background-color: skyblue;}
 
 .mlimages{
   font-size: 10px;
@@ -29,6 +68,10 @@ div{
 
 #btnhover:hover{
   background-color: red;
+}
+
+#btnhover1:hover{
+  background-color: skyblue;
 }
 #myBtn {
   display: none;
