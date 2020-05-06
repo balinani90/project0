@@ -49,6 +49,15 @@ li {
 
 .dropdown:hover .navbtn {background-color: skyblue;}
 
+.navbtn{
+  border-radius: 5px;
+  font-size: 20px;
+  font-weight: bold;
+}
+.navbtn:hover{
+  background-color: skyblue;
+}
+
 .mlimages{
   font-size: 10px;
   text-align: center;
