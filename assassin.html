@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <title>Mobile Legends Assassin Heroes</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="assassin.css">
+  </head>
+  <body>
+    <div>
+      <img src="MLbanner.jpg" alt="MLBANNER" style="width:100%">
+    </div>
+    <div class"navb">
+    <nav class="navbar navbar-dark bg-dark justify-content-between">
+      <a href="index1.html" class="navbar-brand"><button class="navbtn">Home</button></a>
+      <div class="dropdown">
+      <a href="heroes.html" class="navbar-brand"><button class="navbtn">All Heroes</button></a>
+      <div class="dropdown-content">
+          <a href="marksman.html">Marksman</a>
+          <a href="fighter.html">Fighter</a>
+          <a href="tank.html">Tank</a>
+          <a href="assassin.html">Assassin</a>
+          <a href="mage.html">Mage</a>
+          <a href="support.html">Support</a>
+      </div>
+      </div>
+      <a class="navbar-brand"><button class="navbtn">Items</button></a>
+      <a class="navbar-brand"><button class="navbtn">Artworks</button></a>
+      <form class="form-inline">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-warning my-2 my-sm-0" type="submit">Search</button>
+      </form>
+    </nav>
+    </div>
+    <div class="mlimages">
+      <table>
+        <tr>
+          <td><img class="img-fluid" style="width:100%" src="mlheroes/alucard.jpg"></td>
+          <td><img class="img-fluid" style="width:100%" src="mlheroes/fanny.jpg"></td>
+          <td><img class="img-fluid" style="width:100%" src="mlheroes/gusion.jpg"></td>
+          <td><img class="img-fluid" style="width:100%" src="mlheroes/hanzo.jpg"></td>
+          <td><img class="img-fluid" style="width:100%" src="mlheroes/hayabusa.jpg"></td>
+          <td><img class="img-fluid" style="width:100%" src="mlheroes/helcurt.jpg"></td>
+        </tr>
+        <tr>
+          <td><a onclick="window.open('angela.html')"><button type="button" id="btnhover">Alucard</button></a></td>
+          <td><a onclick="window.open('angela.html')"><button type="button" id="btnhover">Fanny</button></a></td>
+          <td><a onclick="window.open('angela.html')"><button type="button" id="btnhover">Gusion</button></a></td>
+          <td><a onclick="window.open('angela.html')"><button type="button" id="btnhover">Hanzo</button></a></td>
+          <td><a onclick="window.open('angela.html')"><button type="button" id="btnhover">Hayabusa</button></a></td>
+          <td><a onclick="window.open('angela.html')"><button type="button" id="btnhover">Helcurt</button></a></td>
+        </tr>
+        <tr>
+          <td><img class="img-fluid" style="width:100%" src="mlheroes/karina.jpg"></td>
+          <td><img class="img-fluid" style="width:100%" src="mlheroes/lancelot.jpg"></td>
+          <td><img class="img-fluid" style="width:100%" src="mlheroes/lapulapu.jpg"></td>
+          <td><img class="img-fluid" style="width:100%" src="mlheroes/lesley.jpg"></td>
+          <td><img class="img-fluid" style="width:100%" src="mlheroes/ling.jpg"></td>
+          <td><img class="img-fluid" style="width:100%" src="mlheroes/natalia.jpg"></td>
+        </tr>
+        <tr>
+          <td><a onclick="window.open('angela.html')"><button type="button" id="btnhover">Karina</button></a></td>
+          <td><a onclick="window.open('angela.html')"><button type="button" id="btnhover">Lancelot</button></a></td>
+          <td><a onclick="window.open('angela.html')"><button type="button" id="btnhover">Lapu Lapu</button></a></td>
+          <td><a onclick="window.open('angela.html')"><button type="button" id="btnhover">Lesley</button></a></td>
+          <td><a onclick="window.open('angela.html')"><button type="button" id="btnhover">Ling</button></a></td>
+          <td><a onclick="window.open('angela.html')"><button type="button" id="btnhover">Natalia</button></a></td>
+        </tr>
+        <tr>
+          <td><img class="img-fluid" style="width:100%" src="mlheroes/saber.jpg"></td>
+          <td><img class="img-fluid" style="width:100%" src="mlheroes/selena.jpg"></td>
+          <td><img class="img-fluid" style="width:100%" src="mlheroes/zilong.jpg"></td>
+        </tr>
+        <tr>
+          <td><a onclick="window.open('angela.html')"><button type="button" id="btnhover">Saber</button></a></td>
+          <td><a onclick="window.open('angela.html')"><button type="button" id="btnhover">Selena</button></a></td>
+          <td><a onclick="window.open('angela.html')"><button type="button" id="btnhover">Zilong</button></a></td>
+        </tr>
+      </table>
+    </div>
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+    <script>
+    //Get the button
+    var mybutton = document.getElementById("myBtn");
+
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function() {scrollFunction()};
+
+    function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+    } else {
+    mybutton.style.display = "none";
+    }
+    }
+
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+    }
+    </script>
+    <footer>Copyright © 2020 GM B0OM. All rights reserved.| Terms of Use | Privacy Policy</br>0926-7770-093</footer>
+    </body>
+    </html>

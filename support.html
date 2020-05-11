@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <title>Mobile Legends Support Heroes</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="support.css">
+  </head>
+  <body>
+    <div>
+      <img src="MLbanner.jpg" alt="MLBANNER" style="width:100%">
+    </div>
+    <div class"navb">
+    <nav class="navbar navbar-dark bg-dark justify-content-between">
+      <a href="index1.html" class="navbar-brand"><button class="navbtn">Home</button></a>
+      <div class="dropdown">
+      <a href="heroes.html" class="navbar-brand"><button class="navbtn">All Heroes</button></a>
+      <div class="dropdown-content">
+          <a href="marksman.html">Marksman</a>
+          <a href="fighter.html">Fighter</a>
+          <a href="tank.html">Tank</a>
+          <a href="assassin.html">Assassin</a>
+          <a href="mage.html">Mage</a>
+          <a href="support.html">Support</a>
+      </div>
+      </div>
+      <a class="navbar-brand"><button class="navbtn">Items</button></a>
+      <a class="navbar-brand"><button class="navbtn">Artworks</button></a>
+      <form class="form-inline">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-warning my-2 my-sm-0" type="submit">Search</button>
+      </form>
+    </nav>
+    </div>
+    <div class="mlimages">
+      <table>
+        <tr>
+          <td><img class="img-fluid" style="width:100%" src="mlheroes/angela.jpg"></td>
+          <td><img class="img-fluid" style="width:100%" src="mlheroes/carmilla.jpg"></td>
+          <td><img class="img-fluid" style="width:100%" src="mlheroes/diggie.jpg"></td>
+          <td><img class="img-fluid" style="width:100%" src="mlheroes/estes.jpg"></td>
+          <td><img class="img-fluid" style="width:100%" src="mlheroes/faramis.jpg"></td>
+          <td><img class="img-fluid" style="width:100%" src="mlheroes/kaja.jpg"></td>
+        </tr>
+        <tr>
+          <td><a onclick="window.open('estes.html')"><button type="button" id="btnhover">Angela</button></a></td>
+          <td><a onclick="window.open('estes.html')"><button type="button" id="btnhover">Carmilla</button></a></td>
+          <td><a onclick="window.open('estes.html')"><button type="button" id="btnhover">Diggie</button></a></td>
+          <td><a onclick="window.open('estes.html')"><button type="button" id="btnhover">Estes</button></a></td>
+          <td><a onclick="window.open('estes.html')"><button type="button" id="btnhover">Faramis</button></a></td>
+          <td><a onclick="window.open('estes.html')"><button type="button" id="btnhover">Kaja</button></a></td>
+        </tr>
+        <tr>
+          <td><img class="img-fluid" style="width:100%" src="mlheroes/lolita.jpg"></td>
+          <td><img class="img-fluid" style="width:100%" src="mlheroes/minotaur.jpg"></td>
+          <td><img class="img-fluid" style="width:100%" src="mlheroes/nana.jpg"></td>
+          <td><img class="img-fluid" style="width:100%" src="mlheroes/rafaela.jpg"></td>
+        </tr>
+        <tr>
+          <td><a onclick="window.open('estes.html')"><button type="button" id="btnhover">Lolita</button></a></td>
+          <td><a onclick="window.open('estes.html')"><button type="button" id="btnhover">Minotaur</button></a></td>
+          <td><a onclick="window.open('estes.html')"><button type="button" id="btnhover">Nana</button></a></td>
+          <td><a onclick="window.open('estes.html')"><button type="button" id="btnhover">Rafaela</button></a></td>
+        </tr>
+      </table>
+    </div>
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+    <script>
+    //Get the button
+    var mybutton = document.getElementById("myBtn");
+
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function() {scrollFunction()};
+
+    function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+    } else {
+    mybutton.style.display = "none";
+    }
+    }
+
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+    }
+    </script>
+    <footer>Copyright © 2020 GM B0OM. All rights reserved.| Terms of Use | Privacy Policy</br>0926-7770-093</footer>
+    </body>
+    </html>
